@@ -1,10 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	devtools: { enabled: true },
+    app: {
+        baseURL: '/dante/', // baseURL: '/<repository>/'
+        buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
+    },
 
-	modules: ['@samk-dev/nuxt-uikit3'],
+    devtools: { enabled: true },
 
-	uikit3: {
+    modules: ['@samk-dev/nuxt-uikit3'],
+
+    uikit3: {
         css: {
         // disable core and theme css to minimize final css bundle 
             coreCss: false,

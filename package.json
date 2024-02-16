@@ -8,11 +8,11 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "push-dir --dir=dist --dotfiles --branch=gh-pages --clean"
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "nuxt": "^3.10.1",
-    "push-dir": "^0.4.1",
     "sass": "^1.70.0",
     "sass-loader": "^14.1.0",
     "vue": "^3.4.15",
