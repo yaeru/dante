@@ -10,11 +10,11 @@
 				<span uk-icon="icon: nut; ratio: 1"></span>
 				Mercado Pago
 			</a>
-			<a href="cafecito.app/danteleoncini" target="_blank" class="uk-button uk-button-primary uk-margin-small-right">
+			<a href="https://cafecito.app/danteleoncini" target="_blank" class="uk-button uk-button-primary uk-margin-small-right">
 				<span uk-icon="icon: nut; ratio: 1"></span>
 				Cafecito
 			</a>
-			<a href="patreon.com/dante_leoncini" target="_blank" class="uk-button uk-button-primary">
+			<a href="https://patreon.com/dante_leoncini" target="_blank" class="uk-button uk-button-primary">
 				<span uk-icon="icon: nut; ratio: 1"></span>
 				Patreon
 			</a>
