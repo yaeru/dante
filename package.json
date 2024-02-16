@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --clean"
+    "deploy": "push-dir --dir=dist --dotfiles --branch=gh-pages --clean"
   },
   "dependencies": {
     "nuxt": "^3.10.1",
