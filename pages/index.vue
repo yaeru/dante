@@ -42,7 +42,7 @@
 			</article>
 			<article>
 				<div class="uk-card uk-card-body uk-card-default uk-card-hover">
-					<img src="~/assets/img/icon-blendersito.png" alt="Blendersito" width="60">
+					<img src="/img/icon-blendersito.png" alt="Blendersito" width="60">
 					<h3 class="uk-margin-small-top">Blendersito</h3>
 					<p class="uk-text-small text-balance">
 						Una versión de Blender creada desde cero para Symbian
