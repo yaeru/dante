@@ -47,18 +47,48 @@
 			<div class="uk-width-2-3@m">
 				<h3>Descipción</h3>
 				<p>
-					Entorno gráfico liviano para usar aplicaciones QML+Javascript en Multiples Dispositivos.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 				<p>
-					Originalmente creado para usarse en telefonos Nokia con Symbian Belle (Como el Nokia N8). El proyecto tiene muchas horas de trabajo, pero debido a que mi Nokia N8 se rompio, nunca lo termine.
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 				<p>
-					Ahora hay una version Compatible con Windows, linux y Android mucho mas avanzada que utiliza QML 2.0 en adelante. permite hacer muchas mas cosas que con QT 4.8 y QML 1.0 no se podia (o al menos no sin mucho esfuerzo)
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 				
-				<div uk-margin>
-					<img src="/img/nokidesk/img01.jpg" alt="" class="uk-border-rounded">
-					<img src="/img/nokidesk/img02.jpg" alt="" class="uk-border-rounded">
+				
+				<div class="uk-grid uk-grid-small uk-child-width-1-3 uk-margin-medium-top uk-margin-medium-bottom" uk-grid uk-lightbox>
+					<figure>
+						<a href="/img/nokidesk/img01.jpg">
+							<img src="/img/nokidesk/img01.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						</a>
+					</figure>
+					<figure>
+						<a href="/img/nokidesk/img02.jpg">
+							<img src="/img/nokidesk/img02.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						</a>
+					</figure>
+					<figure>
+						<a href="/img/nokidesk/img01.jpg">
+							<img src="/img/nokidesk/img01.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						</a>
+					</figure>
+					<figure>
+						<a href="/img/nokidesk/img02.jpg">
+							<img src="/img/nokidesk/img02.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						</a>
+					</figure>
+					<figure>
+						<a href="/img/nokidesk/img01.jpg">
+							<img src="/img/nokidesk/img01.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						</a>
+					</figure>
+					<figure>
+						<a href="/img/nokidesk/img02.jpg">
+							<img src="/img/nokidesk/img02.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						</a>
+					</figure>
+					
 				</div>
 
 				<p>

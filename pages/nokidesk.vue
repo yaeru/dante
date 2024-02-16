@@ -56,12 +56,16 @@
 					Ahora hay una version Compatible con Windows, linux y Android mucho mas avanzada que utiliza QML 2.0 en adelante. permite hacer muchas mas cosas que con QT 4.8 y QML 1.0 no se podia (o al menos no sin mucho esfuerzo)
 				</p>
 
-				<div class="uk-grid uk-grid-small uk-child-width-1-2 uk-margin-medium-top uk-margin-medium-bottom">
+				<div class="uk-grid uk-grid-small uk-child-width-1-3 uk-margin-medium-top uk-margin-medium-bottom" uk-grid uk-lightbox>
 					<figure>
-						<img src="/img/nokidesk/img01.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						<a href="/img/nokidesk/img01.jpg">
+							<img src="/img/nokidesk/img01.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						</a>
 					</figure>
 					<figure>
-						<img src="/img/nokidesk/img02.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						<a href="/img/nokidesk/img02.jpg">
+							<img src="/img/nokidesk/img02.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+						</a>
 					</figure>
 				</div>
 
