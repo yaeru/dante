@@ -19,6 +19,8 @@ export default defineNuxtConfig({
                 stylesPath: '~/assets/styles/main.scss',
                 variablesPath: '~/assets/styles/variables.scss'
             }
-        }
+        },
+        js: true,
+        icons: true
     },
 })

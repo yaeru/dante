@@ -5,7 +5,7 @@
 			<div class="uk-container uk-container-large">
 				<div class="uk-navbar" uk-navbar>
 					<div class="uk-navbar-left">
-						<NuxtLink to="/" class="uk-logo uk-text-bold">Nombre Sitio</NuxtLink>
+						<NuxtLink to="/" class="uk-logo uk-text-bold">Untitled</NuxtLink>
 					</div>
 					<div class="uk-navbar-center">
 						<ul class="uk-navbar-nav uk-visible@m">

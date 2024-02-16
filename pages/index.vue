@@ -9,6 +9,7 @@
 		<p class="uk-text-lead uk-margin-medium-bottom text-balance">
 			Divulgador de GNU/Linux y Software Libre.<br> Modelador 3D, Diseño Vectorial y Programador
 		</p>
+		<span data-uk-icon="icon: heart; ratio: 2"></span>
 		<Social />
 	</SectionUk>
 
