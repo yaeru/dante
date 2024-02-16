@@ -1,7 +1,9 @@
 <template>
 	<SectionUk class="uk-section-primary uk-text-center">
-		<span uk-icon="icon: nut; ratio: 4"></span>
-		<h1>Nokidesk</h1>
+		<figure class="uk-card uk-card-default uk-padding-small uk-display-inline-block">
+			<img src="/img/icon-nokidesk.png" alt="Nokidesk" width="60">
+		</figure>
+		<h1 class="uk-margin-remove">Nokidesk</h1>
 		<p class="uk-text-lead uk-margin-medium-bottom text-balance">
 			Entorno gráfico personalizable para mobile, PC y consolas
 		</p>
@@ -53,17 +55,21 @@
 				<p>
 					Ahora hay una version Compatible con Windows, linux y Android mucho mas avanzada que utiliza QML 2.0 en adelante. permite hacer muchas mas cosas que con QT 4.8 y QML 1.0 no se podia (o al menos no sin mucho esfuerzo)
 				</p>
-				
-				<div uk-margin>
-					<img src="/img/nokidesk/img01.jpg" alt="" class="uk-border-rounded">
-					<img src="/img/nokidesk/img02.jpg" alt="" class="uk-border-rounded">
+
+				<div class="uk-grid uk-grid-small uk-child-width-1-2 uk-margin-medium-top uk-margin-medium-bottom">
+					<figure>
+						<img src="/img/nokidesk/img01.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+					</figure>
+					<figure>
+						<img src="/img/nokidesk/img02.jpg" alt="Nokidesk ejemplo" class="uk-border-rounded">
+					</figure>
 				</div>
 
 				<p>
 					Adaptar cualquier aplicacion 100% qml y javascript o Aplicaciones Web es relativamente facil. Las aplicaciones tienen que estar en el directorio /qml/aplicaciones y tienen que tener 2 iconos en formato png de 16x16 y 32x32 pixeles llamados "16.png" y "32.png". El Primer QML que se ejecuta tiene que tener el mismo nombre que la carpeta. Ejemplo: "MyApp/MyApp.qml"
 				</p>
 
-				<div uk-margin>
+				<div class="uk-grid uk-grid-small uk-child-width-1-2 uk-margin-medium-top uk-margin-medium-bottom">
 					<img src="/img/nokidesk/img03.jpg" alt="" class="uk-border-rounded">
 				</div>
 

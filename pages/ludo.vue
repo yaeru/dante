@@ -1,7 +1,9 @@
 <template>
 	<SectionUk class="uk-section-primary uk-text-center">
-		<span uk-icon="icon: nut; ratio: 4"></span>
-		<h1>Ludo</h1>
+		<figure class="uk-card uk-card-default uk-padding-small uk-display-inline-block">
+			<img src="/img/icon-ludo.png" alt="Nokidesk" width="60">
+		</figure>
+		<h1 class="uk-margin-remove">Ludo</h1>
 		<p class="uk-text-lead uk-margin-medium-bottom text-balance">
 			Juego Ludo para Symbian S60v3 con opción multijugador
 		</p>

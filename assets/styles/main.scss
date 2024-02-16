@@ -16,9 +16,33 @@
 	text-wrap: balance;
 }
 
+/* FLEX */
+.uk-d-grid {
+	display: grid;
+	gap: 20px;
+	&.uk-d-grid-2 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	&.uk-d-grid-3 {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* BUTTON */
+.uk-button {
+	.uk-button-3d {
+		box-shadow: 0 3px 0 $global-border;
+		&:active {
+			margin-bottom: -7px;
+			box-shadow: 0 2px 0 darken($global-primary-background, 15%);
+		}
+	}
+}
+
 /* Nav */
 .uk-navbar-nav > li a.uk-active {
 	color: $navbar-nav-item-active-color;
+	font-weight: bold;
 }
 .router-link-active {
 	@extend .uk-active;
@@ -38,4 +62,58 @@ a:hover {
 /* CARD */
 .uk-card {
 	transition: box-shadow .1s ease-in-out;
+}
+
+/* HOME */
+#projects {
+	.uk-card {
+		transition: all .15s ease-in;
+		&:hover {
+			transform: translateY(-5px);
+		}
+	}
+}
+#projects-alt {
+	.uk-card {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		transition: all .1s ease-in;
+		box-shadow: 0 8px 0 darken($global-primary-background, 15%);
+		.uk-flex {
+			gap: 20px;
+			img {
+				padding: 10px;
+				box-sizing: content-box;
+				background-color: white;
+				@extend .uk-border-rounded;
+				display: block;
+				@media (max-width: $breakpoint-small) {
+					width: 35px;
+				}
+			}
+		}
+		
+		&:hover {
+			transform: translateY(7px);
+			box-shadow: 0 2px 0 darken($global-primary-background, 15%);
+		}
+	}
+}
+
+/* DONATIONS */
+#donations {
+	.uk-button {
+		box-shadow: 0 6px 0 darken($global-primary-background, 15%);
+		&:active {
+			margin-bottom: -7px;
+			box-shadow: 0 2px 0 darken($global-primary-background, 15%);
+		}
+	}
+	img {
+		@extend .uk-border-rounded;
+		margin-top: -20px;
+		margin-left: -15px;
+		border: solid 1px grey;
+		box-shadow: 0 3px 0 grey;
+	}
 }

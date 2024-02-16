@@ -1,7 +1,9 @@
 <template>
 	<SectionUk class="uk-section-primary uk-text-center">
-		<span uk-icon="icon: nut; ratio: 4"></span>
-		<h1>PyCrash</h1>
+		<figure class="uk-card uk-card-default uk-padding-small uk-display-inline-block">
+			<img src="/img/icon-pycrash.png" alt="Nokidesk" width="60">
+		</figure>
+		<h1 class="uk-margin-remove">PyCrash</h1>
 		<p class="uk-text-lead uk-margin-medium-bottom text-balance">
 			Merge the textures into a single one ready to use in Unity HDRP
 		</p>
