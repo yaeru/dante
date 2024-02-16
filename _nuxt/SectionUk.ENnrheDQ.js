@@ -1,0 +1,1 @@
+import{_ as s,o,c as t,a as c,L as n}from"./entry.zrmUVzR3.js";const _={},a={class:"uk-section"},r={class:"uk-container"};function i(e,d){return o(),t("section",a,[c("div",r,[n(e.$slots,"default")])])}const f=s(_,[["render",i]]);export{f as _};

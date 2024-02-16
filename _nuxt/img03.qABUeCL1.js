@@ -1,0 +1,1 @@
+import"./entry.zrmUVzR3.js";const i=""+globalThis.__publicAssetsURL("img/nokidesk/img01.jpg"),o=""+globalThis.__publicAssetsURL("img/nokidesk/img02.jpg"),_=""+globalThis.__publicAssetsURL("img/nokidesk/img03.jpg");export{i as _,o as a,_ as b};
