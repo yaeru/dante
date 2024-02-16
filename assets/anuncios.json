@@ -1,0 +1,31 @@
+{
+  "anuncios": [
+    {
+      "titulo": "Anuncio X",
+      "cliente": "Cliente A",
+      "estadisticas": [
+        {"mes": "Enero", "vistas": 17},
+        {"mes": "Febrero", "vistas": 22},
+        {"mes": "Marzo", "vistas": 15}
+      ]
+    },
+    {
+      "titulo": "Anuncio Y",
+      "cliente": "Cliente B",
+      "estadisticas": [
+        {"mes": "Enero", "vistas": 14},
+        {"mes": "Febrero", "vistas": 20},
+        {"mes": "Marzo", "vistas": 18}
+      ]
+    },
+    {
+      "titulo": "Anuncio Z",
+      "cliente": "Cliente C",
+      "estadisticas": [
+        {"mes": "Enero", "vistas": 25},
+        {"mes": "Febrero", "vistas": 19},
+        {"mes": "Marzo", "vistas": 23}
+      ]
+    }
+  ]
+}

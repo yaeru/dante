@@ -1,0 +1,26 @@
+$global-primary-background: #E71481;
+//$global-secondary-background: #FFA600;
+$base-body-background: #f9f9f9;
+
+$global-link-color: $global-primary-background;
+$global-background: #fff;
+
+$global-margin: 16px;
+$global-gutter: 30px;
+
+$base-border-radius-s: 4px;
+$base-border-radius-m: 5px;
+$base-border-radius-l: 10px;
+
+$global-font-family: 'Noto Sans Mono', monospace;
+$base-heading-font-weight: 600;
+$global-small-font-size: 0.875rem;
+$global-medium-font-size: 1.1rem;
+$text-lead-font-size: 1.3rem;
+
+$nav-primary-item-hover-color: $global-primary-background;
+$nav-primary-item-active-color: $nav-primary-item-hover-color;
+
+$card-title-font-size: $global-medium-font-size;
+$card-body-padding-horizontal: 20px;
+$card-body-padding-horizontal-l: $card-body-padding-horizontal;
