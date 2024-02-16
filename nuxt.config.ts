@@ -1,13 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	ssr: true,
-
-	app: {
-        baseURL: '/dante/', // baseURL: '/<repository>/'
-        buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
-    },
-
-    experimental: { payloadExtraction: true },
 
     devtools: { enabled: true },
 
@@ -23,8 +15,6 @@ export default defineNuxtConfig({
     			stylesPath: '~/assets/styles/main.scss',
     			variablesPath: '~/assets/styles/variables.scss'
     		}
-    	},
-    	js: true,
-    	icons: true
+    	}
     },
 })
