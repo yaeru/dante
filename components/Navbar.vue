@@ -1,5 +1,5 @@
 <template>
-	<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+	<div >
 		<nav class="uk-navbar-container">
 			<div class="uk-container uk-container-large">
 				<div class="uk-navbar" uk-navbar>
